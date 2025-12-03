@@ -1,0 +1,22 @@
+import { BrowserRouter, Route, Routes } from 'react-router'
+import RootLayout from './layouts/RootLayout'
+import Home from './pages/Home'
+import Entities from './pages/Entities'
+import Contact from './pages/Contact'
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route element={< RootLayout />}>
+          <Route path="/" element={< Home/>}/>
+          <Route path="/entities" element={< Entities />}/>
+          <Route path="/contact" element={< Contact/>}/>
+          <Route/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App;

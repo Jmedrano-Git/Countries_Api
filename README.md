@@ -1,6 +1,7 @@
 # Proyecto Countries
 
 Api usada: https://restcountries.com/v3.1/independent?status=true
+Video: https://youtu.be/GgciSNwHNDk
 
 Instalacion:
 ```
